@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@server":["server"],
+      "@server*":["server*"],
+      "@config":["server/config"],
+      "@config*":["server/config*"],
+      "@constants":["server/constants"],
+      "@constants*":["server/constants*"],
+      "@controllers":["server/controllers"],
+      "@controllers*":["server/controllers*"],
+      "@core":["server/core"],
+      "@core*":["server/core*"],
+      "@middlewares":["server/middlewares"],
+      "@middlewares*":["server/middlewares*"],
+      "@models":["server/models"],
+      "@models*":["server/models*"],
+      "@utils":["server/utils"],
+      "@utils*":["server/utils*"]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

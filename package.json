@@ -1,0 +1,51 @@
+{
+  "name": "node-app-starter",
+  "version": "1.0.0",
+  "description": "Node App Starter",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "start-dev": "nodemon server/index.js",
+    "lint": "node_modules/.bin/eslint ./server/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:gkcgautam/node-app-starter.git"
+  },
+  "author": "Gautam Chaudhary <gkcgautam@gmail.com> (https://gautamchaudhary.com)",
+  "license": "MIT",
+  "homepage": "https://github.com/gkcgautam/node-app-starter",
+  "devDependencies": {
+    "eslint": "5.9.0",
+    "eslint-import-resolver-alias": "1.1.1",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-node": "8.0.0",
+    "nodemon": "1.18.7"
+  },
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "cors": "2.8.5",
+    "dotenv": "6.1.0",
+    "error-stack-parser": "2.0.2",
+    "express": "4.16.4",
+    "express-fileupload": "1.0.0",
+    "express-request-id": "1.4.1",
+    "express-trailing-slash": "1.0.0",
+    "helmet": "3.15.0",
+    "http-shutdown": "1.2.0",
+    "lodash": "4.17.11",
+    "module-alias": "2.1.0",
+    "moment-timezone": "0.5.23",
+    "platform": "1.3.5",
+    "pretty-error": "2.1.1",
+    "request": "2.88.0",
+    "request-ip": "2.1.3",
+    "request-promise-native": "1.0.5",
+    "string-format-obj": "1.1.1",
+    "uuid": "3.3.2",
+    "winston": "3.1.0"
+  }
+}
